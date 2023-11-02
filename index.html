@@ -84,48 +84,100 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-7 d-flex justify-content-between">
-            <h1>Catalogo libri</h1>
-            <button type="button" class="btn btn-primary">
-              Aggiungi Libro
-            </button>
-            <ul class="list-group">
-              <li class="list-group-item list-group-item-secondary">
-                I pilastri della Terra
-              </li>
-              <li class="list-group-item list-group-item-light">
-                I prommessi sposi 
-              </li>
-              <li class="list-group-item list-group-item-secondary">
-                I signori degli anelli
-              </li>
-              <li class="list-group-item list-group-item-light">
-                Harry Potter e la pietra filosofale
-              </li>
-              <li class="list-group-item list-group-item-secondary">
-                Il codice Da Vinci
-              </li>
-              <li class="list-group-item list-group-item-light">
-              Shining
-              </li>
-              <li class="list-group-item list-group-item-secondary">
-              La divina commedia
-              </li>
-              <li class="list-group-item list-group-item-light">
-                Il trono di pade
-              <li class="list-group-item list-group-item-secondary">
-                Il mondo di Sofia
-              </li>
-              <li class="list-group-item list-group-item-light">
-                Le cronache di Narnia:il leone, la strega e l'armadio
-              </li>
-              <li class="list-group-item list-group-item-secondary">
-                Il piccollo principe
-              </li>
-              <li class="list-group-item list-group-item-light">
-                La storia infinita
-              </li>
-            </ul>
+          <div class="col-7 d-flex flex-column">
+            <div class="d-flex justify-content-between">
+              <h1>Catalogo libri</h1>
+              <button type="button" class="btn btn-primary">
+                Aggiungi Libro
+              </button>
+            </div>
+            <!--inizio della tabella-->
+            <div><table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Titolo</th>
+                  <th scope="col">Data prestito</th>
+                  <th scope="col">Stato</th>
+                  <th scope="col">Azioni</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I pilastri della Terra</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>I prommessi sposi</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>I signori degli anelli</td>
+                  <td>18/10/2023</td>
+                  <td>In prestito</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Harry Potter e la pietra filosofale</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Il codice Da Vinci</td>
+                  <td>-</td>
+                  <td>Non disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Shining</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>La divina commedia</td>
+                  <td>21/09/2023</td>
+                  <td>In prestito</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Il trono di spade</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Il mondo di Sofia</td>
+                  <td>-</td>
+                  <td>Non disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Le cronache di Narnia:il leone, la strega e l'armadio</td>
+                  <td>25/07/2023</td>
+                  <td>In prestito</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Il piccollo principe</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>La storia infinita</td>
+                  <td>-</td>
+                  <td>Disponibile</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <!--fine della tabella-->
           </div>
           <div class="col-3"></div>
         </div>
